@@ -4,7 +4,7 @@ public class Durchschnittsnote {
 
     public static void main(String[] args) {
 
-        int erstenotee;
+        int erstenote;
         int zweitenote;
         double addiert;
         int n;

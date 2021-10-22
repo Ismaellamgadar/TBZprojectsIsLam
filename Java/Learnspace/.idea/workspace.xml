@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b58be3-148c-457d-b6ac-273d0763b565" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tiktaktoe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tiktaktoe/src/Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/org/launchcode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiktaktoe/org/launchcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiktaktoe/org/launchcode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiktaktoe/org/launchcode/integer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tiktaktoe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tiktaktoe/out/production/Tiktaktoe/org/launchcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tiktaktoe/out/production/Tiktaktoe/org/launchcode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tiktaktoe/src/org/launchcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tiktaktoe/src/org/launchcode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,19 +113,6 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Tiktaktoe" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Tiktaktoe" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

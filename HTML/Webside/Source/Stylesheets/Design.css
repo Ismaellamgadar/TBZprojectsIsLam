@@ -1,0 +1,32 @@
+.all {
+    background-color: black;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logotitle {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-left: 3%;
+}
+
+.nav-link {
+    font-size: 150%;
+
+}
+
+.nav-item {
+    width: 100%;
+    margin-right: 10%;
+}
+
+.navbar-nav {
+    margin-left: -5%;
+}
+
+.Copyright {
+    color: white;
+}
+

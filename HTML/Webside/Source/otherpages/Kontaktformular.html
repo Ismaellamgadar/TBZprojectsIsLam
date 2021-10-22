@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webside</title>
+    <style>
+      .logo {
+    width: 30%;
+}
+
+.logotitle {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-left: 3%;
+}
+
+.nav-link {
+    font-size: 150%;
+
+}
+
+.nav-item {
+    width: 100%;
+    margin-right: 10%;
+}
+
+.navbar-nav {
+    margin-left: -5%;
+}
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="/index.html"><img class="logo" src="/Source/img/Button-Smiley.png" alt=""><br><p class="logotitle"></p></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/Source/otherpages/ProductPage.html">Games</a>
+  
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Source/otherpages/Kontaktformular.html">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+        
+      </nav>
+<div class="w3-container w3-light-grey" style="padding:250px 16px" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Webside, Area51, USA</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Tel: 078 123 45 67</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Webside@info.com</p></div>
+      <br>
+      <form action="https://formspree.io/f/myylvkby" method="POST">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+</body>
+</html>

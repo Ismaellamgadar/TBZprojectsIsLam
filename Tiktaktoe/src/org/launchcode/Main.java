@@ -22,12 +22,16 @@ public class Main {
             Scanner scan = new Scanner(System.in);
             System.out.println("Enter your placement (1-9)");
             int playerPos = scan.nextInt();
-
+            while (playerPostitions.contains(playerPos) || cpuPostitions.contains(playerPos)) {
+                System.out.println("Position taken! Enter a correct position");
+                playerPos = scan.nextInt(); }
 
             placePiece(gameBoard, playerPos, "player");
 
             Random rand = new Random();
             int cpuPos = rand.nextInt(9) +1;
+            while (playerPostitions.contains(cpuPos) || cpuPostitions.contains(cpuPos)) {
+                cpuPos = rand.nextInt(9) +1; }
             placePiece(gameBoard, cpuPos, "cpu");
 
             printGameBoard(gameBoard);

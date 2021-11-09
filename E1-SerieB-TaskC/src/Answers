@@ -1,5 +1,7 @@
 1) 5 Sterne
 
-2) 6 mal
+2) 5 mal
 
-3)
+3) Wenn die angegebene Zahl kleiner als 3 oder grösser als 6 ist wird der Debugger angehalten.
+
+4) Mit der Eingabe 5 ist der Wert von Vert auch 5.

@@ -13,7 +13,7 @@ public class Main {
         ein = scan.nextInt();
 
         if ((ein >=3) && (ein <= 6)) {
-            for (int hor = 1; hor <= ein; hor++) {
+            for (int hor = 3; hor <= ein; hor++) {
                 String out = "";
                 for (int vert = hor; vert <= ein; vert++) {
                     out += "*";

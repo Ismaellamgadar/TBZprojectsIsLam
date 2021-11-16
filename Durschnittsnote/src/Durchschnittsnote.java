@@ -22,8 +22,8 @@ public class Durchschnittsnote {
             num[i] = STDIN_SCANNER.nextFloat();
             sum += num[i];
         }
-        avg = sum / n;                      // avg ist der Durchschnitt(Average)
-        System.out.printf("\nDurchschnitt = %.2f \n\n\n", avg);
+                              // avg ist der Durchschnitt(Average)
+
     }
 
     public final static Scanner STDIN_SCANNER = new Scanner(System.in);
